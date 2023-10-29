@@ -17,6 +17,8 @@ import confluence from "./confluence.svg";
 // Portfolio: New Images Start
 import spgb from "./spanien-grundbuchauszug-min.png";
 import hero from "./hero-image.png";
+import multistepform from "./js_multistepform.png"
+import budgetscript from "./budgetscript.png"
 // Portfolio: New Images End
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
@@ -63,6 +65,8 @@ export {
   //Portfolio new Images
   spgb,
   hero,
+  multistepform,
+  budgetscript,
   //Portfolio new Images End
   airbnb,
   bill,

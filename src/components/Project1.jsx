@@ -17,9 +17,11 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <div className={`flex flex-row p-6 rounded-[20px] feature-card`}>
-        <img src={spgb} alt="billing" className="w-[70%] h-[100%]" />
-      </div>
+      <a href={"https://www.spanien-grundbuchauszug.com"} target="_blank" rel="noopener noreferrer">
+        <div className={`w-[70%] flex flex-row p-6 rounded-[20px] feature-card`}>
+          <img src={spgb} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
+        </div>
+      </a>
     </div>
   </section>
 );

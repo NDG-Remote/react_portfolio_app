@@ -1,11 +1,15 @@
-import { apple, bill, google } from "../assets";
+import { apple, bill, budgetscript, google } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      {<img src={bill} alt="Project2" className="w-[100%] h-[100%] relative z-[5]" />}
+      <a href={"https://www.spanien-grundbuchauszug.com"} target="_blank" rel="noopener noreferrer">
+        <div className={`flex flex-row p-6 rounded-[20px] feature-card`}>
+          <img src={budgetscript} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
+        </div>
+      </a>
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
