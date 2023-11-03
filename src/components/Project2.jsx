@@ -5,8 +5,8 @@ import Button from "./Button";
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <a href={"https://www.spanien-grundbuchauszug.com"} target="_blank" rel="noopener noreferrer">
-        <div className={`flex flex-row p-6 rounded-[20px] feature-card`}>
+      <a href={"https://github.com/NDG-Remote/G-Ads_budget_check"} target="_blank" rel="noopener noreferrer">
+        <div className={`flex flex-row p-4 rounded-[20px] feature-card`}>
           <img src={budgetscript} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
         </div>
       </a>
@@ -25,7 +25,7 @@ const Billing = () => (
         Frustrated by the lack of useful tools for monitoring budget deviations, I took matters into my own hands. This script was born out of a need to track budget variances of 10% or more within a weekly timeframe. You can find the script, a corresponding Google Sheet, and a comprehensive manual/tutorial for downloading and setup on my GitHub account.
       </p>
 
-      <a href={"https://www.spanien-grundbuchauszug.com"} target="_blank" rel="noopener noreferrer"><Button styles={`mt-10`} /></a>
+      <a href={"https://github.com/NDG-Remote/G-Ads_budget_check"} target="_blank" rel="noopener noreferrer"><Button styles={`mt-10`} /></a>
     </div>
   </section>
 );
