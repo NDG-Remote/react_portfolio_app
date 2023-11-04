@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, link, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <section id="education" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Coding Education: <br className="sm:block hidden" /> <span className="text-gradient-custom">Learning is Essential.</span>

@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
-    <div className={layout.sectionInfo}>
+    <div id="projects" className={layout.sectionInfo}>
       <h3 className={styles.heading2}>
         Website Project <br /> <span className="text-gradient-custom">Wordpress Website.</span>
       </h3>

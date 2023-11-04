@@ -5,10 +5,9 @@ class FormSpGb extends Component {
     return (
       <div>
         <iframe
-/*           className='w-[100%]' */
           title="Sp GB Form"
-          src="/src/components/index.html" // Replace with the actual path to your form HTML file
-          width="400px"
+          src="https://myformdesign.online/spanien-grundbuchauszug"
+          width="360px"
           height="600px"
           frameBorder="0"
           sandbox="allow-scripts allow-same-origin"
