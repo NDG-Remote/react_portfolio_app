@@ -121,6 +121,10 @@
     filter: invert(99%) sepia(39%) saturate(4298%) hue-rotate(192deg) brightness(132%) contrast(88%);
 }
 
+img {
+  border-radius: 4px;
+}
+
 .image-shadow{
   box-shadow: 0px 6px 12px 1px rgba(165, 165, 165, 0.5); 
 }
@@ -130,6 +134,21 @@
   transition: box-shadow 0.3s ease-in-out;
   /* transition: translateY 0.5s ease-in-out; */
 }
+
+.footericons {
+  fill: #bef3f5;
+}
+
+.iconcontainer {
+  text-align: center;
+}
+
+.iconnames {
+  color: white;
+  display: block;
+  margin-top: 12px;
+}
+
 
 /* Portfolio CSS End */
 

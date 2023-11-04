@@ -24,7 +24,7 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Coding Education: <br className="sm:block hidden" /> Learning is Essential.
+        Coding Education: <br className="sm:block hidden" /> <span className="text-gradient-custom">Learning is Essential.</span>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         My path as a developer has been marked by a commitment to self-taught and online learning, investing countless hours to refine my programming skills. In this ever-evolving digital landscape, I recognize that continuous learning is the key to my progress.

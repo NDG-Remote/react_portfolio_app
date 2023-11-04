@@ -22,6 +22,7 @@ import {
   c,
   react,
   github, 
+  githubwhite, 
   vscode, 
   wordpress,
   wix,
@@ -173,11 +174,11 @@ export const footerLinks = [
     links: [
       {
         name: "Imprint",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "#",
       },
       {
         name: "Cookies",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "#",
       },
     ],
   },
@@ -186,11 +187,11 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://instagram.com/extra_worklifebalance?igshid=NzZlODBkYWE4Ng==",
+    icon: githubwhite,
+    link: "https://github.com/NDG-Remote",
   },
   {
-    id: "social-media-4",
+    id: "social-media-2",
     icon: linkedin,
     link: "https://www.linkedin.com/in/andrea-nadia-glaus",
   },
@@ -229,25 +230,31 @@ export const tools = [
   {
     id: "tool-1",
     logo: jira,
+    name: "Jira"
   },
   {
     id: "tool-2",
     logo: confluence,
+    name: "Confluence"
   },
   {
     id: "tool-3",
     logo: vscode,
+    name: "VSCode"
   },
   {
     id: "tool-4",
     logo: figma,
+    name: "Figma"
   },
     {
     id: "tool-5",
     logo: github,
+    name: "GitHub"
   },
     {
     id: "tool-6",
     logo: wordpress,
+    name: "Wordpress"
   },
 ];

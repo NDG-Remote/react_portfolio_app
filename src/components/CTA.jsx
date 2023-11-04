@@ -1,5 +1,6 @@
 import styles from "../style";
 import ButtonContact from "./ButtonContact";
+/* import ContactForm from "./ContactForm"; */
 
 const CTA = () => (
   <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
@@ -11,7 +12,7 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <a href={"mailto:andrea.glaus@me.com"} target="_blank" rel="noopener noreferrer"><ButtonContact styles={`mt-10`} /></a>
+      <a href={"mailto:andrea.glaus@me.com"} target="_blank" rel="noopener noreferrer">{/* <ContactForm styles={`mt-10`} /> */}<ButtonContact styles={`mt-10`} /></a>
     </div>
   </section>
 );

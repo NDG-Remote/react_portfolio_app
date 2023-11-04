@@ -1,12 +1,13 @@
 import { multistepform } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import FormSpGb from "./FormSpGb";
 
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        JavaScript Project <br className="sm:block hidden" /> Custom Multistep Form.
+        JavaScript Project <br /> <span className="text-gradient-custom">Custom Multistep Form.</span>
       </h2>
       <h2 className=" {styles.heading2} text-gradient-custom">
         Still in progress!
@@ -20,8 +21,8 @@ const CardDeal = () => (
 
     <div className={layout.sectionImg}>
       <a href={"https://github.com/NDG-Remote/Multistep-Form-Sp-Gb.com"} target="_blank" rel="noopener noreferrer">
-        <div className={`w-[70%] flex flex-row p-6 rounded-[20px] feature-card`}>
-          <img src={multistepform} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
+        <div className={`w-[100%] flex flex-row pt-6 pb-6 rounded-[20px] feature-card`}>
+          <FormSpGb />
         </div>
       </a>
     </div>

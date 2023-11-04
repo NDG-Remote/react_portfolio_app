@@ -7,6 +7,7 @@ import sql from "./mysql.svg";
 import c from "./c.svg";
 import react from "./react.svg";
 import github from "./github.svg";
+import githubwhite from "./github-white.svg"
 import vscode from "./visualstudiocode.svg";
 import wordpress from "./wordpress.svg";
 import wix from "./wix.svg";
@@ -16,7 +17,7 @@ import confluence from "./confluence.svg";
 // Portfolio: New Icons End
 // Portfolio: New Images Start
 import spgb from "./spanien-grundbuchauszug-min.png";
-import hero from "./hero-image.png";
+import hero from "./hero-image.webp";
 import multistepform from "./js_multistepform.png"
 import budgetscript from "./budgetscript.png"
 // Portfolio: New Images End
@@ -56,6 +57,7 @@ export {
   c,
   react,
   github, 
+  githubwhite,
   vscode, 
   wordpress,
   wix,

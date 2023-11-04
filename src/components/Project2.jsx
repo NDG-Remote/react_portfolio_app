@@ -19,7 +19,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        JavaScript Project <br className="sm:block hidden" /> Google Ads Budget Monitoring Script.
+        JavaScript Project<br /> <span className="text-gradient-custom">Google Ads Budget Monitoring Script.</span>
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Frustrated by the lack of useful tools for monitoring budget deviations, I took matters into my own hands. This script was born out of a need to track budget variances of 10% or more within a weekly timeframe. You can find the script, a corresponding Google Sheet, and a comprehensive manual/tutorial for downloading and setup on my GitHub account.
