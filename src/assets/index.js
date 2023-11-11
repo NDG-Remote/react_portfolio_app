@@ -20,6 +20,7 @@ import spgb from "./spanien-grundbuchauszug-min.png";
 import hero from "./hero-image.webp";
 import multistepform from "./js_multistepform.png"
 import budgetscript from "./budgetscript.png"
+import form from "./form.webp"
 // Portfolio: New Images End
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
@@ -69,6 +70,7 @@ export {
   hero,
   multistepform,
   budgetscript,
+  form,
   //Portfolio new Images End
   airbnb,
   bill,

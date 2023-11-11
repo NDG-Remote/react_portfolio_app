@@ -20,8 +20,8 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <a href={"https://github.com/NDG-Remote/Multistep-Form-Sp-Gb.com"} target="_blank" rel="noopener noreferrer">
-        <div className={`w-[100%] flex flex-row p-6 rounded-[20px] feature-card`}>
+      <a href={"https://myformdesign.online/spanien-grundbuchauszug"} target="_blank" rel="noopener noreferrer">
+        <div className={`w-[100%] flex flex-row p-6 rounded-[20px] feature-card dark-frame`}>
           <FormSpGb />
         </div>
       </a>

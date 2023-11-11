@@ -5,7 +5,7 @@ import Project2 from "./Project2";
 import Project3 from "./Project3";
 import Languages from "./Languages";
 import Tools from "./Tools";
-import ButtonContact from "./ButtonContact"
+import ButtonContact from "./ButtonContact";
 // Portfolio Components Start
 import Business from "./Business";
 import CTA from "./CTA";
