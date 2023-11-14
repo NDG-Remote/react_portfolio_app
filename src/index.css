@@ -155,11 +155,22 @@ img {
   margin-top: 12px;
 }
 
-
 .dark-frame {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
   visibility: visible;
+}
+
+ul li:last-child {
+  margin-bottom: 18px; /* You can adjust the margin value to your preference */
+}
+
+.checkbox {
+  position: relative;
+  bottom: 2px;
+  width: 20px;
+  margin-right: 8px;
+  margin-left: 14px;
 }
 
 /* Portfolio CSS End */

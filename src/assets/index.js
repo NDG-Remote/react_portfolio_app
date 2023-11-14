@@ -14,6 +14,8 @@ import wix from "./wix.svg";
 import figma from "./figma.svg";
 import jira from "./jira.svg";
 import confluence from "./confluence.svg";
+import checkbox from "./checkbox.png"
+import uncheckedbox from "./uncheckedbox.png"
 // Portfolio: New Icons End
 // Portfolio: New Images Start
 import spgb from "./spanien-grundbuchauszug-min.png";
@@ -65,6 +67,8 @@ export {
   figma,
   jira,
   confluence,
+  checkbox,
+  uncheckedbox,
   //Portfolio new Images
   spgb,
   hero,
