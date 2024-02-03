@@ -162,7 +162,11 @@ img {
 }
 
 ul li:last-child {
-  margin-bottom: 18px; /* You can adjust the margin value to your preference */
+  margin-bottom: 18px;
+}
+
+nav ul li:last-child {
+  margin-bottom: 0px;
 }
 
 .checkbox {

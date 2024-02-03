@@ -19,6 +19,8 @@ import uncheckedbox from "./uncheckedbox.png"
 // Portfolio: New Icons End
 // Portfolio: New Images Start
 import spgb from "./spanien-grundbuchauszug-min.png";
+import reactapp from "./React_Web_App.webp";
+import flaskapp from "./Flask_App.webp";
 import hero from "./hero-image.webp";
 import multistepform from "./js_multistepform.png"
 import budgetscript from "./budgetscript.png"
@@ -59,9 +61,9 @@ export {
   sql,
   c,
   react,
-  github, 
+  github,
   githubwhite,
-  vscode, 
+  vscode,
   wordpress,
   wix,
   figma,
@@ -75,6 +77,8 @@ export {
   multistepform,
   budgetscript,
   form,
+  reactapp,
+  flaskapp,
   //Portfolio new Images End
   airbnb,
   bill,

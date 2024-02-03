@@ -53,38 +53,52 @@ export const navLinks = [
 
 export const features = [
   {
+    id: "feature-0",
+    icon: star,
+    title: "HarvardX: CS50's Web Programming with Python and JavaScript",
+    content: "This course picks up where CS50 left off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.",
+    link: "https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript"
+  },
+  {
     id: "feature-1",
     icon: star,
     title: "HarvardX - CS50's Introduction to Computer Science",
-    content: "CS50x is Harvardx's (Online courses from Harvard University) introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience.",
+    content: "CS50x introduced me to computer science and programming, covering C, HTML, CSS, JavaScript, SQL, Python, and Flask. It provided a deep understanding of key concepts like Computer Science, Resource Management, Data Structures, and Algorithms.",
     link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science"
   },
   {
     id: "feature-2",
+    icon: star,
+    title: "HarvardX: CS50's Understanding Technology",
+    content: "CS50T covered essential basics of the internet, multimedia, security, web development, and programming.",
+    link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-understanding-technology"
+  },
+  {
+    id: "feature-3",
     icon: send,
     title: "Johns Hopkins - HTML, CSS, JS",
-    content: "This course covers essential skills required to align with contemporary user expectations in web design and development. Participants will acquire the expertise to craft responsive and user-friendly web pages, mastering HTML, CSS (including Bootstrap), and JavaScript.",
+    content: "This course equips participants with essential skills for modern web design and development, focusing on HTML, CSS (including Bootstrap), and JavaScript.",
     link: "https://www.coursera.org/account/accomplishments/verify/B68MQSQ2V57Q?utm_product=course"
   },
     {
-    id: "feature-3",
+    id: "feature-4",
     icon: shield,
     title: "California Institute of the Arts - Visual Elements of User Interface Design",
-    content: "This course, centered on design principles, explores the concept of interfaces and the role of designers in their creation. Participants will learn the art of designing and conveying meaning through elements such as color, typography, and imagery, enabling them to craft clear and seamless interfaces.",
+    content: "Explored design principles, focusing on creating clear and seamless interfaces through elements like color, typography, and imagery.",
     link: "https://www.coursera.org/account/accomplishments/verify/YVYFJQYDXHGN"
   },
     {
-    id: "feature-4",
+    id: "feature-5",
     icon: star,
     title: "IBM - Data Analysis and Visualization Foundations",
-    content: "Introduction to Data Analytics, Excel Basics for Data Analysis, Data Visualization and Dashboards with Excel and Cognos, Assessment for Data Analysis and Visualization Foundations",
+    content: "Covered Data Analytics, Excel Basics, Data Visualization, Dashboards with Excel and Cognos, and Assessment for Data Analysis and Visualization Foundations.",
     link: "https://www.coursera.org/account/accomplishments/specialization/K7DVB8ZUFSZ7"
   },
   {
-    id: "feature-5",
+    id: "feature-6",
     icon: shield,
     title: "Mimo - HTML5, JavaScript, Python, SQL",
-    content: "Mimo is a programming app that has it all! Mimo makes learning to code and diving into computer science as intuitive as possible. Our curriculum is built by experts and helps you learn by practicing on real-world projects in HTML, JavaScript, CSS, Python, and SQL.",
+    content: "Mimo, an intuitive programming app, facilitated learning through real-world projects in HTML, JavaScript, CSS, Python, and SQL.",
     link: "https://mimo.org"
   },
 ];

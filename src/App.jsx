@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import { Navbar, Business, Project1, Project2, Project3, Languages, Tools, CTA, Stats, Footer, Testimonials, Hero } from "./components";
+import { Navbar, Business, Project1, Project2, Project3, Project_this_Website_React, Project_WebApp_Flask, Languages, Tools, CTA, Stats, Footer, Testimonials, Hero } from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -20,6 +20,8 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Languages />
         <Project1 />
+        <Project_this_Website_React />
+        <Project_WebApp_Flask />
         <Project2 />
         <Project3 />
         <Testimonials />
