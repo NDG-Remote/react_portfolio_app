@@ -26,7 +26,6 @@ const App = () => (
         <Project2 />
         <Project3 />
         <Testimonials />
-        <FeedbackCard />
         <Tools />
         <Course />
         <CTA />
