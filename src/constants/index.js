@@ -10,6 +10,7 @@ import {
   python,
   sql,
   c,
+  django,
   react,
   github,
   githubwhite,
@@ -225,12 +226,20 @@ export const languages = [
     id: "language-4",
     logo: python,
   },
-    {
+  {
     id: "language-5",
+    logo: react,
+  },
+  {
+    id: "language-6",
+    logo: django,
+  },
+    {
+    id: "language-7",
     logo: c,
   },
   {
-    id: "language-7",
+    id: "language-8",
     logo: sql,
   },
 ];

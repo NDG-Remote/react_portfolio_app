@@ -5,6 +5,7 @@ import js from "./javascript.svg";
 import python from "./python.svg";
 import sql from "./mysql.svg";
 import c from "./c.svg";
+import django from "./django.png";
 import react from "./react.svg";
 import github from "./github.svg";
 import githubwhite from "./github-white.svg"
@@ -60,6 +61,7 @@ export {
   python,
   sql,
   c,
+  django,
   react,
   github,
   githubwhite,
