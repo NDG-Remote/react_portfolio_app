@@ -6,7 +6,7 @@ const CourseCard = ({ year, title, content, link, index }) => (
   <a href={link} target="_blank" rel="noopener noreferrer">
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== courses.length - 1 ? "mb-8" : "mb-0"} feature-card dark-frame`}>
       <div className={`w-[64px] h-[40px] rounded-[5px] ${styles.flexCenter} bg-dimWhite`}>
-        <p className="font-poppins font-semibold text-black text-[16px] text-center">{year}</p>
+        <p className="font-poppins font-semibold text-black text-[16px] text-center leading-tight">{year}</p>
       </div>
       <div className="flex-1 flex flex-col ml-3">
         <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">

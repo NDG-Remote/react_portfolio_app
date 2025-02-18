@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
           web developer.
         </h1>
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>Swiss-born and now based in Spain, I've been on an exciting coding journey since 2021, working remotely for Swiss tech companies while steadily evolving as a web developer. My passion lies in coding across multiple languages, from crafting React websites to navigating lowcode CMS. I excel in developing programs using JavaScript, C, and Python. Currently, I'm eager to join a dynamic team to explore web app development opportunities. Beyond the screen, I thrive on outdoor adventures, relish travel experiences, and savor diverse cuisines.
+        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>A passionate web and software developer with a knack for building robust and user-friendly digital experiences. Originally from Switzerland and now based in sunny Spain, I've been crafting code and growing as a developer since 2020. My journey has taken me from low-code CMS platforms to full-stack projects using JavaScript, Python, and React. I thrive on solving complex problems, embracing new challenges, and collaborating with dynamic teams to create impactful digital products.
         </p>
       </div>
 
