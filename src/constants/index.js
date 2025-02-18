@@ -51,17 +51,17 @@ export const courses = [
   },
   {
     id: "course-1",
-    year: "2023",
-    title: "HarvardX - CS50's Introduction to Computer Science",
-    content: "CS50x introduced me to computer science and programming, covering C, HTML, CSS, JavaScript, SQL, Python, and Flask. It provided a deep understanding of key concepts like Computer Science, Resource Management, Data Structures, and Algorithms.",
-    link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science"
+    year: "2024",
+    title: "HarvardX: CS50's Understanding Technology",
+    content: "CS50T covered essential basics of the internet, multimedia, security, web development, and programming.",
+    link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-understanding-technology"
   },
   {
     id: "course-2",
     year: "2023",
-    title: "HarvardX: CS50's Understanding Technology",
-    content: "CS50T covered essential basics of the internet, multimedia, security, web development, and programming.",
-    link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-understanding-technology"
+    title: "HarvardX - CS50's Introduction to Computer Science",
+    content: "CS50x introduced me to computer science and programming, covering C, HTML, CSS, JavaScript, SQL, Python, and Flask. It provided a deep understanding of key concepts like Computer Science, Resource Management, Data Structures, and Algorithms.",
+    link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science"
   },
   {
     id: "course-3",

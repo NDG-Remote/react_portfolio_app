@@ -5,11 +5,9 @@ import Button from "./Button";
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <a href={"https://github.com/NDG-Remote/G-Ads_budget_check"} target="_blank" rel="noopener noreferrer">
         <div className={`flex flex-row p-4 rounded-[20px] feature-card dark-frame`}>
           <img src={budgetscript} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
         </div>
-      </a>
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
