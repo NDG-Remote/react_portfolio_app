@@ -2,17 +2,7 @@ import {
   people01,
   people02,
   people03,
-  facebook,
-  instagram,
   linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
   //Portfolio new Icons
   html,
   css,
@@ -21,9 +11,9 @@ import {
   sql,
   c,
   react,
-  github, 
-  githubwhite, 
-  vscode, 
+  github,
+  githubwhite,
+  vscode,
   wordpress,
   wix,
   figma,
@@ -51,52 +41,52 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const courses = [
   {
-    id: "feature-0",
-    icon: star,
+    id: "course-0",
+    year: "2025",
     title: "HarvardX: CS50's Web Programming with Python and JavaScript",
     content: "This course picks up where CS50 left off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.",
     link: "https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript"
   },
   {
-    id: "feature-1",
-    icon: star,
+    id: "course-1",
+    year: "2023",
     title: "HarvardX - CS50's Introduction to Computer Science",
     content: "CS50x introduced me to computer science and programming, covering C, HTML, CSS, JavaScript, SQL, Python, and Flask. It provided a deep understanding of key concepts like Computer Science, Resource Management, Data Structures, and Algorithms.",
     link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science"
   },
   {
-    id: "feature-2",
-    icon: star,
+    id: "course-2",
+    year: "2023",
     title: "HarvardX: CS50's Understanding Technology",
     content: "CS50T covered essential basics of the internet, multimedia, security, web development, and programming.",
     link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-understanding-technology"
   },
   {
-    id: "feature-3",
-    icon: send,
+    id: "course-3",
+    year: "2022",
     title: "Johns Hopkins - HTML, CSS, JS",
     content: "This course equips participants with essential skills for modern web design and development, focusing on HTML, CSS (including Bootstrap), and JavaScript.",
     link: "https://www.coursera.org/account/accomplishments/verify/B68MQSQ2V57Q?utm_product=course"
   },
     {
-    id: "feature-4",
-    icon: shield,
+    id: "course-4",
+    year: "2022",
     title: "California Institute of the Arts - Visual Elements of User Interface Design",
     content: "Explored design principles, focusing on creating clear and seamless interfaces through elements like color, typography, and imagery.",
     link: "https://www.coursera.org/account/accomplishments/verify/YVYFJQYDXHGN"
   },
     {
-    id: "feature-5",
-    icon: star,
+    id: "course-5",
+    year: "2022",
     title: "IBM - Data Analysis and Visualization Foundations",
     content: "Covered Data Analytics, Excel Basics, Data Visualization, Dashboards with Excel and Cognos, and Assessment for Data Analysis and Visualization Foundations.",
     link: "https://www.coursera.org/account/accomplishments/specialization/K7DVB8ZUFSZ7"
   },
   {
-    id: "feature-6",
-    icon: shield,
+    id: "course-6",
+    year: "started 2021",
     title: "Mimo - HTML5, JavaScript, Python, SQL",
     content: "Mimo, an intuitive programming app, facilitated learning through real-world projects in HTML, JavaScript, CSS, Python, and SQL.",
     link: "https://mimo.org"
@@ -107,46 +97,49 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum",
+    source: "Recommendation Letter",
+    name: "Natalie Morgan",
+    title: "Andrea's Team Leader at Advance Metrics AG",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    source: "Recommendation Letter",
+    name: "Wolfram Schmidt",
+    title: "Andrea's Direct Supervisor and CEO of Phamos GmbH",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    source: "LinkedIn",
+    name: "Noe Tondeur ???",
+    title: "Andrea's Professor at SAWI Academy Zurich",
     img: people03,
-  },
+  }
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
+// export const stats = [
+//   {
+//     id: "stats-1",
+//     title: "User Active",
+//     value: "3800+",
+//   },
+//   {
+//     id: "stats-2",
+//     title: "Trusted by Company",
+//     value: "230+",
+//   },
+//   {
+//     id: "stats-3",
+//     title: "Transaction",
+//     value: "$230M+",
+//   },
+// ];
 
 export const footerLinks = [
   {
@@ -161,7 +154,7 @@ export const footerLinks = [
         link: "https://www.linkedin.com/in/andrea-nadia-glaus",
       },
       {
-        name: "Contact",
+        name: "E-Mail",
         link: "mailto:andrea.glaus@me.com",
       },
     ],
@@ -174,12 +167,12 @@ export const footerLinks = [
         link: "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science",
       },
       {
-        name: "Calarts - UI / UX Design",
-        link: "https://www.coursera.org/professional-certificates/google-ux-design",
-      },
-      {
         name: "Johns Hopkins - HTML, CSS, JS",
         link: "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+      },
+      {
+        name: "Calarts - UI / UX Design",
+        link: "https://www.coursera.org/professional-certificates/google-ux-design",
       },
     ],
   },

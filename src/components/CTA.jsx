@@ -12,7 +12,7 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <a href={"mailto:andrea.glaus@me.com?subject=Contact%20Form%20-%20Portfolio%20Website%20andrea-glaus.com&body=Hi%20Andrea%2C%0D%0A%0D%0AI%20came%20across%20your%20amazing%20portfolio%20website%20and%20wanted%20to%20get%20in%20touch.%0D%0A%0D%0AHere%20are%20my%20contact%20details%3A%0D%0A%0D%0AName%3A%0D%0ACompany%3A%0D%0AEmail%3A%0D%0AMessage%3A%0D%0A%0D%0AHave%20a%20lovely%20day!%0D%0A%0D%0A"} target="_blank" rel="noopener noreferrer">{/* <ContactForm styles={`mt-10`} /> */}<ButtonContact styles={`mt-10 mb-10`} /></a>
+      <a href={"mailto:andrea.glaus@me.com?subject=Contact%20-%20Portfolio%20Website%20andrea-glaus.com&body=Hi%20Andrea%2C%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20website%20and%20wanted%20to%20get%20in%20touch.%0D%0A%0D%0AHere%20are%20my%20contact%20details%3A%0D%0A%0D%0AName%3A%0D%0ACompany%3A%0D%0AEmail%3A%0D%0AMessage%3A%0D%0A%0D%0ABest%20regards,%0D%0A%0D%0A"} target="_blank" rel="noopener noreferrer">{/* <ContactForm styles={`mt-10`} /> */}<ButtonContact styles={`mt-10 mb-10`} /></a>
     </div>
   </section>
 );

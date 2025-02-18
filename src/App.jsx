@@ -1,6 +1,7 @@
 import styles from "./style";
 
-import { Navbar, Business, Project1, Project2, Project3, Project_this_Website_React, Project_WebApp_Flask, Languages, Tools, CTA, Stats, Footer, Testimonials, Hero } from "./components";
+import { Navbar, Course, Project1, Project2, Project3, Project_this_Website_React, Project_WebApp_Flask, Languages, Tools, CTA, Footer, Testimonials, Hero } from "./components";
+import FeedbackCard from "./components/FeedbackCard";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -25,8 +26,9 @@ const App = () => (
         <Project2 />
         <Project3 />
         <Testimonials />
+        <FeedbackCard />
         <Tools />
-        <Business />
+        <Course />
         <CTA />
         {/* <Stats /> */}
         <Footer />

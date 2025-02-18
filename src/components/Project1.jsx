@@ -20,7 +20,7 @@ const CardDeal = () => (
           <li class="text-[14px]"><img class="inline checkbox" src={checkbox} alt="checkbox" />Currently managing the service</li>
           <li class="text-[14px]"><img class="inline checkbox" src={checkbox} alt="checkbox" />Digital marketing through Google and Social Media</li>
         </ul>
-        <p>Take a moment to visit the website and become one of our satisfied clients.</p>
+        <p>Take a moment to visit the website or even become one of our satisfied clients.</p>
       </div>
 
       <a href={"https://www.spanien-grundbuchauszug.com"} target="_blank" rel="noopener noreferrer"><Button styles={`mt-10`} /></a>

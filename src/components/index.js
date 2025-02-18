@@ -9,9 +9,9 @@ import Languages from "./Languages";
 import Tools from "./Tools";
 import ButtonContact from "./ButtonContact";
 // Portfolio Components Start
-import Business from "./Business";
+import Course from "./Course";
 import CTA from "./CTA";
-import Stats from "./Stats";
+// import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
@@ -24,11 +24,10 @@ export {
   Project2,
   Project3,
   ButtonContact,
-  Business,
+  Course,
   Languages,
   Tools,
   CTA,
-  Stats,
   Footer,
   Testimonials,
   Hero,
