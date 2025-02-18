@@ -1,7 +1,7 @@
 import {
-  people01,
-  people02,
-  people03,
+  natalia_morgan,
+  wolfram_schmidt,
+  noe_toneur,
   linkedin,
   //Portfolio new Icons
   html,
@@ -97,29 +97,32 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum Loremipsum",
-    source: "Recommendation Letter",
+      "Her work ethic is second to none, consistently pushing for the best outcomes in every project.",
+    source: "Linkedin Recommendation",
     name: "Natalie Morgan",
     title: "Andrea's Team Leader at Advance Metrics AG",
-    img: people01,
+    linkedin: "https://www.linkedin.com/in/natalie-morgan",
+    img: natalia_morgan,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Her technical skills extended beyond programming to include the use of modern development tools and platforms. She demonstrated a quick and strong grasp of concepts and used technical tools with great efficiency..",
     source: "Recommendation Letter",
     name: "Wolfram Schmidt",
     title: "Andrea's Direct Supervisor and CEO of Phamos GmbH",
-    img: people02,
+    linkedin: "https://www.linkedin.com/in/wolfram-schmidt-894790158",
+    img: wolfram_schmidt,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    source: "LinkedIn",
-    name: "Noe Tondeur ???",
+      "She has a keen sense for high-quality content marketing, both in terms of overarching strategies and operational implementation.",
+    source: "LinkedIn Recommendation",
+    name: "Noe Tondeur",
     title: "Andrea's Professor at SAWI Academy Zurich",
-    img: people03,
+    linkedin: "https://www.linkedin.com/in/noe-tondeur/",
+    img: noe_toneur,
   }
 ];
 

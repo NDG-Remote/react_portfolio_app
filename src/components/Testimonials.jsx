@@ -10,11 +10,6 @@ const Testimonials = () => (
       <h2 className={styles.heading2}>
         What People are <br className="sm:block hidden" /> saying about me
       </h2>
-      <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Andrea is a genuine collaborator, always eager to expand their skills and contribute effectively to the team. 
-        </p>
-      </div>
     </div>
 
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
