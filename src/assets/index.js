@@ -1,12 +1,14 @@
-// Portfolio: New Icons Start
+
 import html from "./html5.svg";
 import css from "./css3.svg";
 import js from "./javascript.svg";
 import python from "./python.svg";
 import sql from "./mysql.svg";
 import c from "./c.svg";
-import django from "./django.png";
+import django from "./django.svg";
 import react from "./react.svg";
+import flask from "./flask.png";
+import mariadb from "./mariadb.svg";
 import github from "./github.svg";
 import githubwhite from "./github-white.svg"
 import vscode from "./visualstudiocode.svg";
@@ -17,8 +19,6 @@ import jira from "./jira.svg";
 import confluence from "./confluence.svg";
 import checkbox from "./checkbox.png"
 import uncheckedbox from "./uncheckedbox.png"
-// Portfolio: New Icons End
-// Portfolio: New Images Start
 import spgb from "./spanien-grundbuchauszug-min.png";
 import reactapp from "./React_Web_App.webp";
 import flaskapp from "./Flask_App.webp";
@@ -26,14 +26,12 @@ import hero from "./hero-image.webp";
 import multistepform from "./js_multistepform.png"
 import budgetscript from "./budgetscript.png"
 import form from "./form.webp"
-// Portfolio: New Images End
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -63,6 +61,8 @@ export {
   c,
   django,
   react,
+  flask,
+  mariadb,
   github,
   githubwhite,
   vscode,
@@ -88,7 +88,6 @@ export {
   card,
   coinbase,
   dropbox,
-  logo,
   quotes,
   robot,
   send,

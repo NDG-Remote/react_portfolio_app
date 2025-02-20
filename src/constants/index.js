@@ -12,6 +12,8 @@ import {
   c,
   django,
   react,
+  flask,
+  mariadb,
   github,
   githubwhite,
   vscode,
@@ -213,34 +215,52 @@ export const languages = [
   {
     id: "language-1",
     logo: html,
+    name: "HTML"
   },
   {
     id: "language-2",
     logo: css,
+    name: "CSS"
   },
   {
     id: "language-3",
     logo: js,
+    name: "JavaScript"
   },
   {
     id: "language-4",
     logo: python,
+    name: "Python"
   },
   {
     id: "language-5",
     logo: react,
+    name: "React"
   },
   {
     id: "language-6",
     logo: django,
+    name: "Django"
   },
     {
     id: "language-7",
     logo: c,
+    name: "C"
   },
   {
     id: "language-8",
     logo: sql,
+    name: "SQL"
+  },
+  {
+    id: "language-10",
+    logo: flask,
+    name: "Flask"
+  },
+  {
+    id: "language-9",
+    logo: mariadb,
+    name: "MariaDB"
   },
 ];
 
