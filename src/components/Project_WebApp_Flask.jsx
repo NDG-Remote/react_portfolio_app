@@ -34,21 +34,11 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      {/* <a href={"https://pick-hub.onrender.com/"} target="_blank" rel="noopener noreferrer">
+      <a href={"https://pick-hub.onrender.com/"} target="_blank" rel="noopener noreferrer">
         <div className={`p-0 sm:block w-[100%] flex flex-row p-6 rounded-[20px] feature-card dark-frame`}>
           <img src={flaskapp} alt="spanien grundbuchauszug" className="w-[100%] h-[100%]" />
         </div>
-      </a>        */}
-      <div className={`p-0 sm:block flex flex-row p-6 rounded-[20px] feature-card dark-frame`}>
-      <iframe
-          title="Sp GB Form"
-          src="https://pick-hub.onrender.com/"
-          width="600px"
-          height="800px"
-          frameBorder="0"
-          sandbox="allow-scripts allow-same-origin"
-        ></iframe>
-        </div>
+      </a>
     </div>
   </section>
 );
