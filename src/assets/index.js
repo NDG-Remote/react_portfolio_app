@@ -17,6 +17,12 @@ import wix from "./wix.svg";
 import figma from "./figma.svg";
 import jira from "./jira.svg";
 import confluence from "./confluence.svg";
+import magento from "./magento.svg";
+import gitlab from "./gitlab.svg";
+import frappe from "./frappe.png";
+import obsidian from "./obsidian.svg";
+import webflow from "./webflow.svg";
+import docker from "./docker.svg";
 import checkbox from "./checkbox.png"
 import uncheckedbox from "./uncheckedbox.png"
 import spgb from "./spanien-grundbuchauszug-min.png";
@@ -52,7 +58,6 @@ import wolfram_schmidt from "./Testimonial-Wolfram-Schmidt.jpeg";
 import noe_toneur from "./Testimonial-Noe-Tondeur.jpeg";
 
 export {
-  //Portfolio new Icons
   html,
   css,
   js,
@@ -71,9 +76,14 @@ export {
   figma,
   jira,
   confluence,
+  magento,
+  gitlab,
+  frappe,
+  obsidian,
+  webflow,
+  docker,
   checkbox,
   uncheckedbox,
-  //Portfolio new Images
   spgb,
   hero,
   multistepform,
@@ -81,7 +91,6 @@ export {
   form,
   reactapp,
   flaskapp,
-  //Portfolio new Images End
   airbnb,
   bill,
   binance,

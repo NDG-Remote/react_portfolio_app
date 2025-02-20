@@ -3,7 +3,6 @@ import {
   wolfram_schmidt,
   noe_toneur,
   linkedin,
-  //Portfolio new Icons
   html,
   css,
   js,
@@ -22,7 +21,12 @@ import {
   figma,
   jira,
   confluence,
-  //Portfolio new Icons end
+  magento,
+  gitlab,
+  frappe,
+  obsidian,
+  webflow,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -295,5 +299,35 @@ export const tools = [
     id: "tool-6",
     logo: wordpress,
     name: "Wordpress"
+  },
+    {
+    id: "tool-7",
+    logo: magento,
+    name: "Magento"
+  },
+    {
+    id: "tool-8",
+    logo: gitlab,
+    name: "GitLab"
+  },
+    {
+    id: "tool-9",
+    logo: frappe,
+    name: "Frappe"
+  },
+    {
+    id: "tool-10",
+    logo: obsidian,
+    name: "Obsidian"
+  },
+    {
+    id: "tool-11",
+    logo: webflow,
+    name: "Webfolw"
+  },
+    {
+    id: "tool-12",
+    logo: docker,
+    name: "Docker"
   },
 ];
