@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Clients = () => {
   const settings = {
-
     infinite: true,
     slidesToShow: 8,
     slidesToScroll: 1,
