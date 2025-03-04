@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 // Portfolio Components Start
+import WebAppProject from "./WebAppsProjects";
 import Project1 from "./Project1";
 import Project_this_Website_React from "./Project_this_Website_React";
 import Project_WebApp_Flask from "./Project_WebApp_Flask";
@@ -18,6 +19,7 @@ import Hero from "./Hero";
 
 export {
   Navbar,
+  WebAppProject,
   Project1,
   Project_this_Website_React,
   Project_WebApp_Flask,
