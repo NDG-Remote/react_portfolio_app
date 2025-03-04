@@ -214,7 +214,6 @@ export const socialMedia = [
   },
 ];
 
-//Portfolio new Icons
 export const languages = [
   {
     id: "language-1",
